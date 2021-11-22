@@ -55,7 +55,7 @@ src: url('../Fuentes/Cabron.otf');
 }
 #envoltorio #pie {
     width: 100%;
-    background-color: #black;
+    background-color: black;
     margin: 0px auto;
     display: flex;
     justify-content: space-around;
