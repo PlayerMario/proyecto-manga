@@ -27,6 +27,10 @@ body {
     text-align: center;
 }
 
+#envoltorio nav #indice{
+    align-items: stretch;
+}
+
 #envoltorio nav a{
     text-decoration: none;
     color: black;

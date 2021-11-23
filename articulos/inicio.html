@@ -9,45 +9,57 @@
     <link rel='stylesheet' type='text/css' media='screen' href='../css/estilo_maqueta.css'>
     <script src='main.js'></script>
     <style type="text/css">
-        *{
-    padding: 0;
-    margin: 0;
-    text-decoration: none;
-    list-style: none;
-    box-sizing: border-box;
-}
+        .container {
+            width: 90%;
+            margin: auto;
+            overflow: hidden;
+        }
 
-.container{
-    width: 90%;
-    margin: auto;
-    overflow: hidden;
-}
+        .carrousel {
+            display: flex;
+            width: 400%;
+            animation: animacion 10s infinite;
+        }
 
-.carrousel{
-    display: flex;
-    width: 400%;
-    animation: animacion 10s infinite;
-}
+        .container img {
+            width: 80%;
+            display: flex;
+            margin: auto;
+        }
 
-.container img{
-    width: 80%;
-    display: flex;
-    margin: auto;
-}
+        @keyframes animacion {
+            10% {
+                margin-left: 10;
+            }
 
-@keyframes animacion {
-    10% {margin-left: 10;}
-    20% {margin-left: 10;}
+            20% {
+                margin-left: 10;
+            }
 
-    50% {margin-left: -100%;}
-    45% {margin-left: -100%;}
+            50% {
+                margin-left: -100%;
+            }
 
-    20% {margin-left: -100%;}
-    50% {margin-left: -100%;}
+            45% {
+                margin-left: -100%;
+            }
 
-    50% {margin-left: -200%;}
-    70% {margin-left: -200%;}
-}
+            20% {
+                margin-left: -100%;
+            }
+
+            50% {
+                margin-left: -100%;
+            }
+
+            50% {
+                margin-left: -200%;
+            }
+
+            70% {
+                margin-left: -200%;
+            }
+        }
     </style>
 </head>
 
@@ -56,7 +68,16 @@
         <header>
             <img src="../img/banner.png" width="100%" alt="Banner tienda online ES-Mangas." />
         </header>
-        <div class="container">
+        <nav>
+            <a href="index.html">Índice |</a>
+            <a href="inicio.html">Inicio |</a>
+            <a href="masvendidos.html">Más vendidos |</a>
+            <a href="oferta.html">Ofertas</a>
+        </nav>
+        </div>
+    </div>
+    
+    <div class="container">
 
         <div class="carrousel">
 
@@ -99,15 +120,7 @@
             <div>
                 <img src="../img/Boruto.png" alt="Boruto">
             </div>
-        </div>        
-    </div>
-        <nav>
-            <a href="index.html">Índice |</a>
-            <a href="inicio.html">Inicio |</a>
-            <a href="masvendidos.html">Más vendidos |</a>
-            <a href="oferta.html">Ofertas</a>
-        </nav>
-    </div>
+        </div>
 </body>
 
 </html>
