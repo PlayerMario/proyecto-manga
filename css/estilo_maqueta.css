@@ -36,3 +36,23 @@ body {
     color: black;
     font-size: 1.5em;
 }
+
+#envoltorio #pie {
+    width: 100%;
+    background-color: black;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+    border-radius: 3px;
+    font-size: 15pt;
+    opacity: 90%;
+    font-family: "miFuenteChula2";
+    text-decoration: none;
+    color:white;
+}
+
+@font-face{
+    font-family:"miFuenteChula2";
+    src: url('../Fuentes/MEGLORIA.ttf');		
+}
