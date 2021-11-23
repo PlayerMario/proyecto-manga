@@ -43,6 +43,45 @@
             color: black;
             font-size: 1.5em;
         }
+        *{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.carrousel{
+    display: flex;
+    width: 400%;
+    animation: animacion 10s infinite;
+}
+
+.container img{
+    width: 80%;
+    display: flex;
+    margin: auto;
+}
+
+@keyframes animacion {
+    10% {margin-left: 10;}
+    20% {margin-left: 10;}
+
+    50% {margin-left: -100%;}
+    45% {margin-left: -100%;}
+
+    20% {margin-left: -100%;}
+    50% {margin-left: -100%;}
+
+    50% {margin-left: -200%;}
+    70% {margin-left: -200%;}
+}
     </style>
 </head>
 
@@ -51,6 +90,51 @@
         <header>
             <img src="../img/banner.png" width="100%" alt="Banner tienda online ES-Mangas." />
         </header>
+        <div class="container">
+
+        <div class="carrousel">
+
+            <div>
+                <img src="../img/JujutsuKaisen.png" alt="Nobara (JujutsuKaisen)">
+            </div>
+
+            <div>
+                <img src="../img/onepiece.jpg" alt="Mugiwara (One Piece)">
+            </div>
+
+            <div>
+                <img src="../img/Snk.jpg" alt="Eren Jaeger(Shingeki no Kiojin">
+            </div>
+
+            <div>
+                <img src="../img/DemonSlayer.png" alt="Kamador Tanjiro (DemonSlayer)">
+            </div>
+            <div>
+                <img src="../img/BokuNoHero.jpg" alt="Izuku Midoriya (BokuNoHeroAcademia)">
+            </div>
+            <div>
+                <img src="../img/Kaiju8.jpg" alt="Kaiju8">
+            </div>
+            <div>
+                <img src="../img/Anime.jpg" alt="Anime">
+            </div>
+            <div>
+                <img src="../img/OnePunchMan.jpg" alt="Saitama(OnePunchMan)">
+            </div>
+            <div>
+                <img src="../img/RecordOfRagnarok.jpg" alt="RecordOfRagnarok">
+            </div>
+            <div>
+                <img src="../img/Berserk.jpg" alt="Berserk">
+            </div>
+            <div>
+                <img src="../img/BlackClover.jpg" alt="BlackClover">
+            </div>
+            <div>
+                <img src="../img/Boruto.png" alt="Boruto">
+            </div>
+        </div>        
+    </div>
         <nav>
             <a href="inicio.html">Inicio |</a>
             <a href="masvendidos.html">Más vendidos |</a>
