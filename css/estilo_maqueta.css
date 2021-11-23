@@ -1,38 +1,72 @@
-*{
+* {
     box-sizing: border-box;
 }
-
 body {
     background-image: url(../img/maxresdefault.jpg);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
 }
-
 #envoltorio {
     width: 90%;
     margin: 0 auto;
     min-width: 600px;
 }
-
 #envoltorio header img {
     width: 100%;
     border: 2px solid black;
 }
-
 #envoltorio nav {
     background-color: firebrick;
     border: 2px solid black;
     width: 100%;
     text-align: center;
 }
-
-#envoltorio nav #indice{
+#envoltorio nav #indice {
     align-items: stretch;
 }
-
-#envoltorio nav a{
+#envoltorio nav a {
     text-decoration: none;
     color: black;
     font-size: 1.5em;
+}
+.carrusel img {
+    width: 30%;
+}
+.carrusel {
+    display: flex;
+}
+.delante img {
+    width: 60px;
+    margin: 100px auto;
+}
+.images {
+    justify-content: space-around;
+    display: flex;
+}
+.Cuirc {
+    display: flex;
+    justify-content: center;
+}
+@font-face {
+    font-family: "miFuenteChulaD";
+    src: url('../Fuentes/one piece font.ttf');
+}
+.tamaño {
+    font-family: miFuenteChulaD;
+    font-size: 25pt;
+    font-weight: bold;
+    width: 950px;
+    height: 400px;
+    color: white;
+    padding: 20px;
+}
+.tamaño1 img {
+    width: 100%;
+    height: 100%;
+}
+.tamaño1 {
+    margin-top: 55px;
+    width: 400px;
+    height: 400px;
 }
