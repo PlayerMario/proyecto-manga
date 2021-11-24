@@ -155,3 +155,17 @@ h6{
     font-family: 'miFuenteChula1';
     color: #DCD457;
 }
+#envoltorio main{
+    margin-top: 50px;
+    display: flex;
+
+}
+#envoltorio main div{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+#envoltorio main div img{
+    width: 20%;
+
+}
