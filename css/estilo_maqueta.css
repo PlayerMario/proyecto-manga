@@ -101,6 +101,12 @@ h1{
     text-decoration: none;
     color: white;
 }
+
+#envoltorio #pie a {
+    text-decoration: none;
+    color: white;
+}
+
 #envoltorio #contenido main img{
     width: 100%;
     border-radius: 5px;
@@ -168,9 +174,15 @@ h6{
 #envoltorio_01 main div{
     width: 20%;
     display: flex;
+    flex-direction: column;
 
 }
 #envoltorio_01 main div img{
     width: 100%;
 
+}
+#envoltorio_01 main div p{
+    text-align: center;
+    background-color: black;
+    color: white;
 }
