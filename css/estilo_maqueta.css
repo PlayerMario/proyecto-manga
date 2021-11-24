@@ -163,14 +163,14 @@ h6{
 #envoltorio_01 main{
     margin-top: 50px;
     display: flex;
-        justify-content: space-between;
-}
-#envoltorio_01 main div{
-    width: 100%;
-    display: flex;
     justify-content: space-between;
 }
-#envoltorio_01 main div img{
+#envoltorio_01 main div{
     width: 20%;
+    display: flex;
+
+}
+#envoltorio_01 main div img{
+    width: 100%;
 
 }
