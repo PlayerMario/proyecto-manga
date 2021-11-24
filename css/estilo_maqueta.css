@@ -33,7 +33,9 @@ body {
     background-position: center;
     background-color: rgb(44, 9, 139);
     opacity: 90%;
-    color: rgb(44, 9, 139)
+    color: rgb(44, 9, 139);
+    margin-bottom: 1%;
+    margin-top: 1%;
 }
 
 #envoltorio #index a{
