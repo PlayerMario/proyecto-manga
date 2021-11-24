@@ -22,6 +22,22 @@ body {
     width: 100%;
     text-align: center;
 }
+
+#envoltorio #index {
+    height: 350px;
+    text-align: center;
+    font-size: 230%;
+    background-image: url(../img/fondo_index.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+#envoltorio #index a{
+    color: white;
+    text-decoration: none;
+}
+
 #envoltorio nav #indice {
     align-items: stretch;
 }
@@ -179,7 +195,6 @@ main #envoltorio_01 div{
     width: 20%;
     display: flex;
     flex-direction: column;
-    margin: ;
 
 }
 main #envoltorio_01 div img{
