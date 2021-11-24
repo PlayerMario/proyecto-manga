@@ -40,7 +40,7 @@ body {
     width: 60px;
     margin: 100px auto;
 }
-.images {
+.images{
     justify-content: space-around;
     display: flex;
 }
