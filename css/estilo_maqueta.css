@@ -50,11 +50,11 @@ body {
 }
 @font-face {
     font-family: "miFuenteChulaD";
-    src: url('../Fuentes/Nesatho.otf');
+    src: url('../Fuentes/one piece font.ttf');
 }
 .tamaño {
     font-family: miFuenteChulaD;
-    font-size: 18pt;
+    font-size: 20pt;
     font-weight: bold;
     width: 950px;
     height: 400px;
@@ -128,7 +128,7 @@ src: url('../Fuentes/Cabron.otf');
     font-family:"miFuenteChula2";
     src: url('../Fuentes/MEGLORIA.ttf');		
 }
-#envoltorio footer #pie {
+#envoltorio #pie {
     width: 100%;
     background-color: black;
     margin: 0px auto;
@@ -155,17 +155,22 @@ h6{
     font-family: 'miFuenteChula1';
     color: #DCD457;
 }
-#envoltorio main{
+#envoltorio_01{
+    width: 90%;
+    margin: 0 auto;
+    min-width: 650px;
+}
+#envoltorio_01 main{
     margin-top: 50px;
     display: flex;
-
+        justify-content: space-between;
 }
-#envoltorio main div{
+#envoltorio_01 main div{
     width: 100%;
     display: flex;
     justify-content: space-between;
 }
-#envoltorio main div img{
+#envoltorio_01 main div img{
     width: 20%;
 
 }
