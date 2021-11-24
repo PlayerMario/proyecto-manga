@@ -2,27 +2,83 @@
 <html lang="es">
 
 <head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Inicio</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='../css/estilo_maqueta.css'>
-    <script src='main.js'></script>
+    <meta charset="utf-8">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <title>
+        Índice
+    </title>
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <link href="../css/estilo_maqueta.css" media="screen" rel="stylesheet" type="text/css">
+    <script src="main.js">
+    </script>
+    </link>
+    </meta>
+    </meta>
+    </meta>
 </head>
 
 <body>
     <div id="envoltorio">
         <header>
-            <img src="../img/banner.png" width="100%" alt="Banner tienda online ES-Mangas." />
+            <img alt="Banner tienda online ES-Mangas." src="../img/banner.png" width="100%" />
         </header>
-        <nav>
+        <nav id="indce">
             <a href="index.html">Índice |</a>
             <a href="inicio.html">Inicio |</a>
             <a href="masvendidos.html">Más vendidos |</a>
             <a href="oferta.html">Ofertas</a>
         </nav>
     </div>
-     
+    <section class="carrusel">
+        <div class="delante">
+            <map name="atras">
+                <area alt="Anterior imagen" coords="11,33,419,413" href="inicio.html" shape="circle"
+                    title="Anterior imagen">
+                </area>
+            </map>
+            <img src="../img/flecha_atras.png" usemap="#atras">
+            </img>
+        </div>
+            <div class="images">
+                <img src="../img/DemonSlayer.png">
+                    <img src="../img/BokuNoHero.jpg">
+                        <img src="../img/JujutsuKaisen.png">
+                        </img>
+                    </img>
+                </img>
+            </div>
+            <div class="delante">
+                <map name="adelante">
+                    <area alt="Siguiente imagen" coords="11,33,419,413" href="inicio2.html" shape="circle" title="Siguiente imagen">
+                    </area>
+                </map>
+                <img src="../img/flecha_adelante.png" usemap="#adelante">
+                </img>
+            </div>
+    </section>
+    <div id="envoltorio">
+        <footer>
+            <div id="pie">
+
+                <div>
+                    <p><a href="#">Aviso Legal</a></p>
+                </div>
+
+                <div>
+                    <p><a href="articulos/Bibliografia.html" title="Bibliografia">Bibliografia</a></p>
+                </div>
+
+                <div>
+                    <p><a href="articulos/Contacto.html" title="Contacto">Contacto</a></p>
+                </div>
+
+                <div>
+                    <p>Arturo Céspedes Pedrazas <br>Ignacio Moreno Gómez <br> Mario Ruiz López</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+        
 </body>
 
 </html>
