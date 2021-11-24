@@ -30,15 +30,17 @@ body {
     color: black;
     font-size: 1.5em;
 }
-.carrusel img {
-    width: 30%;
-}
 .carrusel {
     display: flex;
+}
+.carrusel img {
+    width: 30%;
 }
 .delante img {
     width: 60px;
     margin: 100px auto;
+    justify-content: center;
+
 }
 .images{
     justify-content: space-around;
@@ -188,4 +190,20 @@ main #envoltorio_01 div p{
     text-align: center;
     background-color: black;
     color: white;
+}
+#envoltorio div{
+    display: flex;
+    align-items: center;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    justify-content: space-between;
+}
+#envoltorio div > a > img{
+    width: 100%;
+    
+}
+#envoltorio > div > img{
+    width: 100%;
+    margin: 0.25%;
+      
 }
