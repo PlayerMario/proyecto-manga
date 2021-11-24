@@ -128,7 +128,7 @@ src: url('../Fuentes/Cabron.otf');
     font-family:"miFuenteChula2";
     src: url('../Fuentes/MEGLORIA.ttf');		
 }
-#envoltorio #pie {
+#envoltorio footer #pie {
     width: 100%;
     background-color: black;
     margin: 0px auto;
