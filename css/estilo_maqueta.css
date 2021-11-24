@@ -168,9 +168,14 @@ h6{
 #envoltorio_01 main div{
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
 }
 #envoltorio_01 main div img{
     width: 20%;
+}
 
+#envoltorio_01 main div p{
+    text-align: center;
+    background-color: black;
+    color: white;
 }
