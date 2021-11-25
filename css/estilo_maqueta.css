@@ -211,15 +211,22 @@ main #envoltorio_01 div p{
     margin-top: 35px;
     margin-bottom: 35px;
     justify-content: space-between;
+    flex-wrap: nowrap;
+
 }
-#envoltorio div > a > img{
+#envoltorio div .flechitas{
+    width: 5%;
     display: flex;
-    width: 100%;
-    margin: auto;
+    flex-shrink: 1;
 }
-#envoltorio > div > img{
+#envoltorio div #carrusel{
+    width: 80%;
     display: flex;
+     flex-shrink: 4;
+}
+#envoltorio div .flechitas img{
     width: 100%;
-    margin: auto;
-      
+}
+#envoltorio div #carrusel img{
+    width: 100%;
 }
