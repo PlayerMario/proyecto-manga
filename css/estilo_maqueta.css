@@ -55,6 +55,7 @@ body {
 }
 .carrusel {
     display: flex;
+    flex-shrink: 1;
 }
 .carrusel img {
     width: 30%;
@@ -220,7 +221,7 @@ main #envoltorio_01 div p{
     flex-shrink: 1;
 }
 #envoltorio div #carrusel{
-    width: 80%;
+    width: 100%;
     display: flex;
      flex-shrink: 4;
     overflow: HIDDEN;
@@ -229,6 +230,6 @@ main #envoltorio_01 div p{
     width: 100%;
 }
 #envoltorio div #carrusel img{
-    width: 100%;
+    width: 33%;
     
 }
