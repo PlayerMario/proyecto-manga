@@ -223,10 +223,12 @@ main #envoltorio_01 div p{
     width: 80%;
     display: flex;
      flex-shrink: 4;
+    overflow: HIDDEN;
 }
 #envoltorio div .flechitas img{
     width: 100%;
 }
 #envoltorio div #carrusel img{
     width: 100%;
+    
 }
