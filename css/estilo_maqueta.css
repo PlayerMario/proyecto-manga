@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 body {
-    background-image: url(../img/maxresdefault.jpg);
+    background-image: url(../img/Utilidades/maxresdefault.jpg);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
@@ -29,7 +29,7 @@ body {
     height: 350px;
     text-align: center;
     font-size: 230%;
-    background-image: url(../img/fondo_index.png);
+    background-image: url(../img/Utilidades/fondo_index.png);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
