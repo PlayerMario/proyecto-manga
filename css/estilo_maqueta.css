@@ -39,7 +39,11 @@ body {
     margin-bottom: 1%;
     margin-top: 1%;
 }
-
+#videoinicio{
+    
+    display: flex;
+    justify-content: center;
+}
 #envoltorio #index a{
     color: rgb(255, 255, 255);
     text-decoration: none;
