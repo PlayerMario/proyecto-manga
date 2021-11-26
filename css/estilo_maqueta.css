@@ -206,6 +206,27 @@ main #envoltorio_01 div p{
     background-color: black;
     color: white;
 }
+main #envoltorio_01 aside{
+    display: flex;
+    width: 20%;
+    float: right;
+    flex-direction: column;
+}
+
+main #envoltorio_01 aside img{  
+    display: flex;
+    width: 100%;
+    border-radius: 20px;
+    padding: 10px;
+}
+main #envoltorio_01 aside video{
+    border: 1%;
+    border-radius: 20px;
+    display: flex;
+    width: 100%;
+  
+   
+}
 #envoltorio div{
     display: flex;
     align-items: center;
