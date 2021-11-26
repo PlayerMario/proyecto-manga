@@ -78,26 +78,25 @@ body {
     font-family: "miFuenteChulaD";
     src: url('../Fuentes/Nesatho.otf');
 }
-.tamaño {
+main #envoltorio .Cuirc .tamaño {
     font-family: miFuenteChulaD;
-    font-size: 20pt;
+    font-size: 15pt;
     font-weight: bold;
-    width: 950px;
-    height: 400px;
+    width: 150%;
     color: white;
-    padding: 20px;
-    margin-top: 40pt;
-    background-color: black
+    margin: 1% 1%;
+
+    background-color: black;
+    flex-direction: column;
+    text-align: center;
 }
-.tamaño1 img {
-   
+
+#envoltorio .Cuirc .tamaño1 img {
     width: 100%;
-    height: 100%;
 }
-.tamaño1 {
-    margin-top: 55px;
-    width: 400px;
-    height: 400px;
+#envoltorio .Cuirc .tamaño1 {
+
+    width: 100%;
 }
 h1{
     text-align: center;
