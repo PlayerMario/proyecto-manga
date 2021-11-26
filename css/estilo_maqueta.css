@@ -40,7 +40,7 @@ body {
     margin-top: 1%;
 }
 #videoinicio{
-    
+    width: 100%;
     display: flex;
     justify-content: center;
 }
@@ -268,3 +268,4 @@ main #envoltorio_01 aside video{
 #envoltorio .albion a img{
     width: 100%;
 }
+
