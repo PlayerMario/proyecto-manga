@@ -258,3 +258,13 @@ main #envoltorio_01 aside video{
     width: 95%;
     
 }
+#envoltorio div .albion{
+    justify-content: center;
+
+}
+#envoltorio .albion a {
+    width: 80%;
+}
+#envoltorio .albion a img{
+    width: 100%;
+}
