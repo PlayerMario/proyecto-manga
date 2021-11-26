@@ -202,8 +202,12 @@ main #envoltorio_01 div img{
 }
 main #envoltorio_01 div p{
     text-align: center;
-    background-color: black;
+    background-color: rgb(44, 9, 139);
+    opacity: 90%;
     color: white;
+    font-weight: bold;
+    font-size: 1em;
+    
 }
 main #envoltorio_01 aside{
     display: flex;
@@ -217,6 +221,7 @@ main #envoltorio_01 aside img{
     width: 100%;
     border-radius: 20px;
     padding: 10px;
+    font-size: larger;
 }
 main #envoltorio_01 aside video{
     border: 1%;
