@@ -133,19 +133,15 @@ h1{
 font-family:"miFuenteChula0";
 src: url('../Fuentes/Cabron.otf');
 }
-.texto{
+#envoltorio #contenido .texto{
     font-family:"miFuenteChula0";
-    position: absolute;
-    margin: 0 auto;
-    text-align:center;
-    top: 25%;
-    left:28%;
     color: #F6F6F6;
-    font-size: 50pt;
+    font-size: 4em;
     line-height: 0.5pt;
-    opacity: 85%;
+    opacity: 95%;
     letter-spacing: 2pt;
-    text-shadow: 2pt 4pt 8pt #444;	
+    text-shadow: 2pt 4pt 8pt #444;
+    flex-direction: column;
 }
 @font-face{
     font-family:"miFuenteChula2";
