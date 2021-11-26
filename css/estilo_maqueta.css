@@ -85,8 +85,8 @@ main #envoltorio .Cuirc .tamaño {
     width: 150%;
     color: white;
     margin: 1% 1%;
-
-    background-color: black;
+    background-color: rgb(44, 9, 139);
+    opacity: 90%;
     flex-direction: column;
     text-align: center;
 }
