@@ -109,6 +109,7 @@ div .centrado{
     margin: 0 auto;
     min-width: 600px;
     flex-wrap: wrap;
+    display: flex;
 }
 
 #envoltorio header img {
@@ -155,18 +156,13 @@ div .centrado{
     border-radius: 5px;
 }
 
-#videoinicio{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-}
 
 /*Pie de página*/
-#envoltorio #pie {
+#envoltorio footer {
     width: 100%;
     background-color: black;
     margin: 0px auto;
-    display: flex;
+    
     justify-content: space-around;
     align-items: stretch;
     border-radius: 3px;
@@ -177,7 +173,7 @@ div .centrado{
     color:white;
 }
 
-#envoltorio #pie a {
+#envoltorio footer a {
     text-decoration: none;
     color: white;
 }
@@ -214,8 +210,17 @@ div .centrado{
     width: 95%;  
 }
 
-#envoltorio div .albion{
+#envoltorio div #videoinicio{
     justify-content: center;
+    width: 100%;
+}
+#envoltorio #videoinicio video{
+    width: 80%;
+    
+}
+
+#envoltorio div .albion{
+    justify-content: space-around;
 }
 #envoltorio .albion a {
     width: 80%;
@@ -230,6 +235,7 @@ div .centrado{
 .Cuirc {
     display: flex;
     justify-content: center;
+    width: 80%;
 }
 
 #envoltorio .Cuirc .tamaño1 img {
@@ -253,7 +259,29 @@ main #envoltorio .Cuirc .tamaño {
     flex-direction: column;
     text-align: center;
 }
+main #envoltorio aside{
+    display: flex;
+    width: 20%;
+    float: right;
+    flex-direction: column;
+    margin-top: 20px;
+}
+main #envoltorio aside img{  
+    display: flex;
+    width: 100%;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: larger;
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
 
+main #envoltorio aside video{
+    border: 1%;
+    border-radius: 15px;
+    display: flex;
+    
+}
 
 /*Maquetación envoltorio y contenido páginas másvendidos y ofertas*/
 #envoltorio_01{
