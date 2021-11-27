@@ -1,5 +1,37 @@
+/*Importación de fuentes*/
+@font-face{
+    font-family:"miFuenteChula0";
+    src: url('../Fuentes/Cabron.otf');
+}
+
+@font-face{
+    font-family: miFuenteChula1;
+    src: url('../Fuentes/Cabron.otf');
+}
+
+@font-face{
+    font-family:"miFuenteChula2";
+    src: url('../Fuentes/MEGLORIA.ttf');		
+}
+
+@font-face {
+    font-family: "miFuenteChulaD";
+    src: url('../Fuentes/Nesatho.otf');
+}
+
+@font-face {
+    font-family: "miFuenteChula3";
+    src: url('../Fuentes/PressStart2P-Regular.ttf');
+}
+
+
+/*Para todas las páginas*/
 * {
     box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
 }
 
 body {
@@ -9,6 +41,69 @@ body {
     background-size: cover;
 }
 
+
+/*Maquetación de la portada*/
+#envoltorioport {
+    width: 95%;
+    margin: 2% auto;
+    min-width: 600px;
+    flex-wrap: wrap;
+}
+
+#envoltorio #contenidoport {
+    display: flex;
+}
+
+#envoltorioport #contenidoport{
+    font-family:"miFuenteChula0", Arial, Helvetica, sans-serif;
+    color: #F6F6F6;
+    font-size: 4em;
+    line-height: 0.5pt;
+    opacity: 95%;
+}
+
+#envoltorioport #contenidoport #titulo{
+    text-shadow: 2pt 4pt 8pt #444;
+    letter-spacing: 2pt;
+    line-height: 0.5pt;
+    position: absolute;
+    padding-left: 3%;
+}
+
+#envoltorioport #contenidoport a{
+    text-decoration: none;
+    color: white;
+}
+
+div .centrado{
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+/*Maquetación index*/
+#envoltorio #index {
+    height: 350px;
+    text-align: center;
+    font-size: 230%;
+    background-image: url(../img/Utilidades/fondo_index.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-color: rgb(44, 9, 139);
+    opacity: 90%;
+    color: rgb(44, 9, 139);
+    margin-bottom: 1%;
+    margin-top: 1%;
+}
+
+#envoltorio #index a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+
+/*Maquetación de las páginas de contenido*/
 #envoltorio {
     width: 90%;
     margin: 0 auto;
@@ -29,32 +124,6 @@ body {
     text-align: center;
 }
 
-#envoltorio #index {
-    height: 350px;
-    text-align: center;
-    font-size: 230%;
-    background-image: url(../img/Utilidades/fondo_index.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
-    background-color: rgb(44, 9, 139);
-    opacity: 90%;
-    color: rgb(44, 9, 139);
-    margin-bottom: 1%;
-    margin-top: 1%;
-}
-
-#videoinicio{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-}
-
-#envoltorio #index a{
-    color: rgb(255, 255, 255);
-    text-decoration: none;
-}
-
 #envoltorio nav #indice {
     align-items: stretch;
 }
@@ -63,50 +132,104 @@ body {
     text-decoration: none;
     color: black;
     font-size: 1.5em;
+    font-weight: bold;
 }
 
-.carrusel {
+#envoltorio #contenido{
+    display: flex;
+    flex-direction: column;
+}
+
+#envoltorio #contenido a {
+    text-decoration: none;
+    color: white;
+}
+
+#envoltorio #contenido main{
+    width: 100%;
+    padding: 20px 5px;
+}
+
+#envoltorio #contenido main img{
+    width: 100%;
+    border-radius: 5px;
+}
+
+#videoinicio{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+/*Pie de página*/
+#envoltorio #pie {
+    width: 100%;
+    background-color: black;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+    border-radius: 3px;
+    font-size: 15pt;
+    opacity: 90%;
+    font-family: "miFuenteChula2", Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color:white;
+}
+
+#envoltorio #pie a {
+    text-decoration: none;
+    color: white;
+}
+
+
+/*Carrusel de imágenes*/
+#envoltorio div{
+    display: flex;
+    align-items: center;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+
+#envoltorio div .flechitas{
+    width: 5%;
     display: flex;
     flex-shrink: 1;
 }
 
-.carrusel img {
-    width: 30%;
-}
-
-.delante img {
-    width: 60px;
-    margin: 100px auto;
-    justify-content: center;
-
-}
-
-.images{
-    justify-content: space-around;
+#envoltorio div #carrusel{
+    width: 100%;
     display: flex;
+     flex-shrink: 4;
+    overflow: HIDDEN;
 }
 
+#envoltorio div .flechitas img{
+    width: 100%;
+}
+
+#envoltorio div #carrusel img{
+    width: 95%;  
+}
+
+#envoltorio div .albion{
+    justify-content: center;
+}
+#envoltorio .albion a {
+    width: 80%;
+}
+
+#envoltorio .albion a img{
+    width: 100%;
+}
+
+
+/*Páginas contenido mangas*/
 .Cuirc {
     display: flex;
     justify-content: center;
-}
-
-@font-face {
-    font-family: "miFuenteChulaD";
-    src: url('../Fuentes/Nesatho.otf');
-}
-
-main #envoltorio .Cuirc .tamaño {
-    font-family: miFuenteChulaD;
-    font-size: 15pt;
-    font-weight: bold;
-    width: 150%;
-    color: white;
-    margin: 1% 1%;
-    background-color: rgb(44, 9, 139);
-    opacity: 90%;
-    flex-direction: column;
-    text-align: center;
 }
 
 #envoltorio .Cuirc .tamaño1 img {
@@ -118,104 +241,21 @@ main #envoltorio .Cuirc .tamaño {
     width: 100%;
 }
 
-h1{
-    text-align: center;
-}
-
-#envoltorio #contenido{
-    display: flex;
-    flex-direction: column;
-
-}
-
-#envoltorio #contenido main{
-    width: 100%;
-    padding: 20px 5px;
-}
-
-#envoltorio #contenido a {
-    text-decoration: none;
-    color: white;
-}
-
-#envoltorio #pie a {
-    text-decoration: none;
-    color: white;
-}
-
-#envoltorio #contenido main img{
-    width: 100%;
-    border-radius: 5px;
-}
-
-@font-face{
-font-family:"miFuenteChula0";
-src: url('../Fuentes/Cabron.otf');
-}
-
-
-#envoltorioport {
-    width: 95%;
-    margin: 2% auto;
-    min-width: 600px;
-    flex-wrap: wrap;
-}
-
-#envoltorio #contenidoport {
-    display: flex;
-}
-
-#envoltorioport #contenidoport{
-    font-family:"miFuenteChula0";
-    color: #F6F6F6;
-    font-size: 4em;
-    line-height: 0.5pt;
-    opacity: 95%;
-}
-
-#envoltorioport #contenidoport #titulo{
-    text-shadow: 2pt 4pt 8pt #444;
-    letter-spacing: 2pt;
-    line-height: 0.5pt;
-    position: absolute;
-    padding-left: 3%;
-}
-
-#envoltorioport #contenidoport a{
-    text-decoration: none;
-    color: white;
-}
-
-@font-face{
-    font-family:"miFuenteChula2";
-    src: url('../Fuentes/MEGLORIA.ttf');		
-}
-
-#envoltorio #pie {
-    width: 100%;
-    background-color: black;
-    margin: 0px auto;
-    display: flex;
-    justify-content: space-around;
-    align-items: stretch;
-    border-radius: 3px;
+main #envoltorio .Cuirc .tamaño {
+    font-family: "miFuenteChulaD", Arial, Helvetica, sans-serif;
     font-size: 15pt;
+    font-weight: bold;
+    width: 150%;
+    color: white;
+    margin: 1% 1%;
+    background-color: rgb(44, 9, 139);
     opacity: 90%;
-    font-family: "miFuenteChula2";
-    text-decoration: none;
-    color:white;
-}
-
-div .centrado{
-    margin: 0 auto;
+    flex-direction: column;
     text-align: center;
 }
 
-@font-face{
-    font-family: miFuenteChula1;
-    src: url('../Fuentes/Cabron.otf');
-}
 
+/*Maquetación envoltorio y contenido páginas másvendidos y ofertas*/
 #envoltorio_01{
     width: 90%;
     margin: 0 auto;
@@ -234,12 +274,10 @@ main #envoltorio_01 div{
     width: 20%;
     display: flex;
     flex-direction: column;
-
 }
 
 main #envoltorio_01 div img{
     width: 100%;
-
 }
 
 main #envoltorio_01 div p{
@@ -247,10 +285,10 @@ main #envoltorio_01 div p{
     background-color: rgb(44, 9, 139);
     opacity: 90%;
     color: white;
-    font-weight: bold;
-    font-size: 1em;
-    
+    font-size: 0.9em;
+    font-family: "miFuenteChula3", Arial, Helvetica, sans-serif;
 }
+
 main #envoltorio_01 aside{
     display: flex;
     width: 20%;
@@ -270,47 +308,5 @@ main #envoltorio_01 aside video{
     border: 1%;
     border-radius: 20px;
     display: flex;
-    width: 100%;
-
-}
-#envoltorio div{
-    display: flex;
-    align-items: center;
-    margin-top: 35px;
-    margin-bottom: 35px;
-    justify-content: space-between;
-    flex-wrap: nowrap;
-
-}
-#envoltorio div .flechitas{
-    width: 5%;
-    display: flex;
-    flex-shrink: 1;
-}
-
-#envoltorio div #carrusel{
-    width: 100%;
-    display: flex;
-     flex-shrink: 4;
-    overflow: HIDDEN;
-}
-
-#envoltorio div .flechitas img{
-    width: 100%;
-}
-#envoltorio div #carrusel img{
-    width: 95%;
-    
-}
-
-#envoltorio div .albion{
-    justify-content: center;
-
-}
-#envoltorio .albion a {
-    width: 80%;
-}
-
-#envoltorio .albion a img{
     width: 100%;
 }
