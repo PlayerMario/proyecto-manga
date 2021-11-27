@@ -1,23 +1,27 @@
 * {
     box-sizing: border-box;
 }
+
 body {
     background-image: url(../img/Utilidades/maxresdefault.jpg);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 #envoltorio {
     width: 90%;
     margin: 0 auto;
     min-width: 600px;
     flex-wrap: wrap;
 }
+
 #envoltorio header img {
     width: 100%;
     border: 2px solid black;
     border-radius: 10px;
 }
+
 #envoltorio nav {
     background-color: firebrick;
     border: 2px solid black;
@@ -39,11 +43,13 @@ body {
     margin-bottom: 1%;
     margin-top: 1%;
 }
+
 #videoinicio{
     width: 100%;
     display: flex;
     justify-content: center;
 }
+
 #envoltorio #index a{
     color: rgb(255, 255, 255);
     text-decoration: none;
@@ -52,36 +58,44 @@ body {
 #envoltorio nav #indice {
     align-items: stretch;
 }
+
 #envoltorio nav a {
     text-decoration: none;
     color: black;
     font-size: 1.5em;
 }
+
 .carrusel {
     display: flex;
     flex-shrink: 1;
 }
+
 .carrusel img {
     width: 30%;
 }
+
 .delante img {
     width: 60px;
     margin: 100px auto;
     justify-content: center;
 
 }
+
 .images{
     justify-content: space-around;
     display: flex;
 }
+
 .Cuirc {
     display: flex;
     justify-content: center;
 }
+
 @font-face {
     font-family: "miFuenteChulaD";
     src: url('../Fuentes/Nesatho.otf');
 }
+
 main #envoltorio .Cuirc .tamaño {
     font-family: miFuenteChulaD;
     font-size: 15pt;
@@ -98,15 +112,14 @@ main #envoltorio .Cuirc .tamaño {
 #envoltorio .Cuirc .tamaño1 img {
     width: 100%;
 }
+
 #envoltorio .Cuirc .tamaño1 {
 
     width: 100%;
 }
+
 h1{
     text-align: center;
-}
-*{
-    box-sizing: border-box;
 }
 
 #envoltorio #contenido{
@@ -114,10 +127,12 @@ h1{
     flex-direction: column;
 
 }
+
 #envoltorio #contenido main{
     width: 100%;
     padding: 20px 5px;
 }
+
 #envoltorio #contenido a {
     text-decoration: none;
     color: white;
@@ -137,20 +152,45 @@ h1{
 font-family:"miFuenteChula0";
 src: url('../Fuentes/Cabron.otf');
 }
-#envoltorio #contenido .texto{
+
+
+#envoltorioport {
+    width: 95%;
+    margin: 2% auto;
+    min-width: 600px;
+    flex-wrap: wrap;
+}
+
+#envoltorio #contenidoport {
+    display: flex;
+}
+
+#envoltorioport #contenidoport{
     font-family:"miFuenteChula0";
     color: #F6F6F6;
     font-size: 4em;
     line-height: 0.5pt;
     opacity: 95%;
-    letter-spacing: 2pt;
-    text-shadow: 2pt 4pt 8pt #444;
-    flex-direction: column;
 }
+
+#envoltorioport #contenidoport #titulo{
+    text-shadow: 2pt 4pt 8pt #444;
+    letter-spacing: 2pt;
+    line-height: 0.5pt;
+    position: absolute;
+    padding-left: 3%;
+}
+
+#envoltorioport #contenidoport a{
+    text-decoration: none;
+    color: white;
+}
+
 @font-face{
     font-family:"miFuenteChula2";
     src: url('../Fuentes/MEGLORIA.ttf');		
 }
+
 #envoltorio #pie {
     width: 100%;
     background-color: black;
@@ -166,23 +206,22 @@ src: url('../Fuentes/Cabron.otf');
     color:white;
 }
 
-div.centrado{
+div .centrado{
     margin: 0 auto;
     text-align: center;
 }
+
 @font-face{
     font-family: miFuenteChula1;
     src: url('../Fuentes/Cabron.otf');
 }
-h6{
-    font-family: 'miFuenteChula1';
-    color: #DCD457;
-}
+
 #envoltorio_01{
     width: 90%;
     margin: 0 auto;
     min-width: 650px;
 }
+
 main #envoltorio_01{
     margin-top: 50px;
     display: flex;
@@ -190,16 +229,19 @@ main #envoltorio_01{
     align-items: center;
     flex-wrap: wrap;
 }
+
 main #envoltorio_01 div{
     width: 20%;
     display: flex;
     flex-direction: column;
 
 }
+
 main #envoltorio_01 div img{
     width: 100%;
 
 }
+
 main #envoltorio_01 div p{
     text-align: center;
     background-color: rgb(44, 9, 139);
@@ -223,13 +265,13 @@ main #envoltorio_01 aside img{
     padding: 10px;
     font-size: larger;
 }
+
 main #envoltorio_01 aside video{
     border: 1%;
     border-radius: 20px;
     display: flex;
     width: 100%;
-  
-   
+
 }
 #envoltorio div{
     display: flex;
@@ -245,12 +287,14 @@ main #envoltorio_01 aside video{
     display: flex;
     flex-shrink: 1;
 }
+
 #envoltorio div #carrusel{
     width: 100%;
     display: flex;
      flex-shrink: 4;
     overflow: HIDDEN;
 }
+
 #envoltorio div .flechitas img{
     width: 100%;
 }
@@ -258,6 +302,7 @@ main #envoltorio_01 aside video{
     width: 95%;
     
 }
+
 #envoltorio div .albion{
     justify-content: center;
 
@@ -265,7 +310,7 @@ main #envoltorio_01 aside video{
 #envoltorio .albion a {
     width: 80%;
 }
+
 #envoltorio .albion a img{
     width: 100%;
 }
-
