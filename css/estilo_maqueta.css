@@ -266,7 +266,6 @@ main #envoltorio_01{
     margin-top: 50px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
     flex-wrap: wrap;
 }
 
@@ -294,6 +293,7 @@ main #envoltorio_01 aside{
     width: 20%;
     float: right;
     flex-direction: column;
+    margin-top: 20px;
 }
 
 main #envoltorio_01 aside img{  
@@ -302,11 +302,13 @@ main #envoltorio_01 aside img{
     border-radius: 20px;
     padding: 10px;
     font-size: larger;
+    margin-bottom: 25px;
+    margin-top: 25px;
 }
 
 main #envoltorio_01 aside video{
     border: 1%;
-    border-radius: 20px;
+    border-radius: 15px;
     display: flex;
-    width: 100%;
+    
 }
