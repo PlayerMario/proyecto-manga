@@ -50,7 +50,7 @@ body {
     flex-wrap: wrap;
 }
 
-#envoltorio #contenidoport {
+#envoltorioport #contenidoport {
     display: flex;
 }
 
@@ -162,15 +162,20 @@ div .centrado{
     width: 100%;
     background-color: black;
     margin: 0px auto;
-    
     justify-content: space-around;
     align-items: stretch;
     border-radius: 3px;
     font-size: 15pt;
     opacity: 90%;
     font-family: "miFuenteChula2", Arial, Helvetica, sans-serif;
+}
+
+#envoltorio footer #pie {
     text-decoration: none;
     color:white;
+    padding-left: 3%;
+    padding-right: 3%;
+    font-size: 1.1em;
 }
 
 #envoltorio footer a {
@@ -215,8 +220,7 @@ div .centrado{
     width: 100%;
 }
 #envoltorio #videoinicio video{
-    width: 80%;
-    
+    width: 80%;    
 }
 
 #envoltorio div .albion{
@@ -259,6 +263,7 @@ main #envoltorio .Cuirc .tamaño {
     flex-direction: column;
     text-align: center;
 }
+
 main #envoltorio aside{
     display: flex;
     width: 20%;
@@ -266,6 +271,7 @@ main #envoltorio aside{
     flex-direction: column;
     margin-top: 20px;
 }
+
 main #envoltorio aside img{  
     display: flex;
     width: 100%;
@@ -279,8 +285,7 @@ main #envoltorio aside img{
 main #envoltorio aside video{
     border: 1%;
     border-radius: 15px;
-    display: flex;
-    
+    display: flex;   
 }
 
 /*Maquetación envoltorio y contenido páginas másvendidos y ofertas*/
@@ -338,5 +343,4 @@ main #envoltorio_01 aside video{
     border: 1%;
     border-radius: 15px;
     display: flex;
-    
 }
