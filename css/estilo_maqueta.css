@@ -45,11 +45,8 @@ body {
     flex-wrap: wrap;
 }
 
-#envoltorioport #contenidoport {
-    display: flex;
-}
-
 #envoltorioport #contenidoport{
+    display: flex;
     font-family:"carbon", Arial, Helvetica, sans-serif;
     color: #F6F6F6;
     font-size: 4em;
@@ -210,14 +207,6 @@ div .centrado{
     width: 95%;  
 }
 
-#envoltorio div #videoinicio{
-    justify-content: center;
-    width: 100%;
-}
-#envoltorio #videoinicio video{
-    width: 80%;    
-}
-
 #envoltorio div .albion{
     justify-content: space-around;
 }
@@ -242,7 +231,6 @@ div .centrado{
 }
 
 #envoltorio .Cuirc .tamaño1 {
-
     width: 100%;
 }
 
