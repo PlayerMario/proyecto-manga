@@ -1,26 +1,21 @@
 /*Importación de fuentes*/
 @font-face{
-    font-family:"miFuenteChula0";
-    src: url('../Fuentes/Cabron.otf');
+    font-family:"carbon";
+    src: url('../Fuentes/Carbon.otf');
 }
 
 @font-face{
-    font-family: miFuenteChula1;
-    src: url('../Fuentes/Cabron.otf');
-}
-
-@font-face{
-    font-family:"miFuenteChula2";
+    font-family:"megloria";
     src: url('../Fuentes/MEGLORIA.ttf');		
 }
 
 @font-face {
-    font-family: "miFuenteChulaD";
+    font-family: "nesa";
     src: url('../Fuentes/Nesatho.otf');
 }
 
 @font-face {
-    font-family: "miFuenteChula3";
+    font-family: "press";
     src: url('../Fuentes/PressStart2P-Regular.ttf');
 }
 
@@ -55,7 +50,7 @@ body {
 }
 
 #envoltorioport #contenidoport{
-    font-family:"miFuenteChula0", Arial, Helvetica, sans-serif;
+    font-family:"carbon", Arial, Helvetica, sans-serif;
     color: #F6F6F6;
     font-size: 4em;
     line-height: 0.5pt;
@@ -167,7 +162,7 @@ div .centrado{
     border-radius: 3px;
     font-size: 15pt;
     opacity: 90%;
-    font-family: "miFuenteChula2", Arial, Helvetica, sans-serif;
+    font-family: "megloria", Arial, Helvetica, sans-serif;
 }
 
 #envoltorio footer #pie {
@@ -203,8 +198,8 @@ div .centrado{
 #envoltorio div #carrusel{
     width: 100%;
     display: flex;
-     flex-shrink: 4;
-    overflow: HIDDEN;
+    flex-shrink: 4;
+    overflow: hidden;
 }
 
 #envoltorio div .flechitas img{
@@ -252,7 +247,7 @@ div .centrado{
 }
 
 main #envoltorio .Cuirc .tamaño {
-    font-family: "miFuenteChulaD", Arial, Helvetica, sans-serif;
+    font-family: "nesa", Arial, Helvetica, sans-serif;
     font-size: 15pt;
     font-weight: bold;
     width: 150%;
@@ -317,8 +312,8 @@ main #envoltorio_01 div p{
     background-color: rgb(44, 9, 139);
     opacity: 90%;
     color: white;
-    font-size: 0.9em;
-    font-family: "miFuenteChula3", Arial, Helvetica, sans-serif;
+    font-size: 0.8em;
+    font-family: "press", Arial, Helvetica, sans-serif;
 }
 
 main #envoltorio_01 aside{
